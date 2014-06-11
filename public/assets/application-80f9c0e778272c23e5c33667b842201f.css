@@ -1,0 +1,1044 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+@media only screen and (max-width: 480px) {
+
+		.iPhone-logo {
+			display: inline-block;
+			/*position: relative;
+			left: 3em;
+			bottom: .7em;*/
+			width: 90%;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+
+			
+			
+			
+		}
+
+
+
+		.description {
+			display: none;
+		}
+
+		.search {
+			width: 90%;
+			margin-top: -4em;
+		}
+
+
+		/*#arrow1 {
+			position: relative;
+			top: -.67em;
+			left: 6.8em;
+			z-index: 1;
+		}*/
+
+		
+
+
+		/*#arrow2 {
+			position: relative;
+			top: -2.95em;
+			left: 6.8em;
+			z-index: 1;
+		}
+*/
+		.logo {
+			display: none;
+		}
+
+		.review {
+			margin-top: 1em;
+			position: relative;
+			left: .3em;
+		}
+
+		
+
+		.review img {
+			
+			width: 5.5em;
+
+		}
+
+		#showtext {
+			display: none;
+			font-size: 1em;
+			width: 14em;
+			margin-right:auto;
+			margin-left: -2.8em;
+			position: relative;
+		}
+
+		#leave {
+			font-size: 1.3em;
+			margin-top: -.2em;
+			
+		}
+
+		
+		.musicos {
+			width: 13em; /*20%*/
+			margin-left:auto;
+			margin-right:auto;
+			text-align: left;
+			position: relative;
+			left: 0.1em; /*-1.875em*/
+			top: 4.5em;
+			padding-right: 1.25em;  
+
+		}
+
+		.place {
+			width: 13em;
+			margin-left:auto;
+			margin-right:auto;
+			text-align: left;
+			position: relative;
+			left: -1.3em;
+			top: -6em;
+			padding-left: 1.875em;
+			
+		}
+
+		.town {
+			width: 13.6em;
+			margin-left:auto;
+			margin-right:auto;
+			text-align: left;
+			position: relative;
+			left: -.2em;
+			top: 0em;
+			padding-left: 1.875em;
+			
+		}
+
+		.town select {
+			width: 15em;
+			position: relative;
+			bottom: 0em;
+			left: -1.4em;
+
+		}
+
+		.date {
+			width: 13.6em;
+			margin-left:auto;
+			margin-right:auto;
+			text-align: left;
+			position: relative;
+			left: -.2em;
+			top: 1.35em;
+			padding-left: 1.875em;
+			
+		}
+
+		#datepick {
+			width: 15em;
+			position: relative;
+			left: -1.4em;
+			
+		}
+
+		
+		.main {
+			height: 30em;
+			margin-bottom: -3em;
+		}
+
+		#leave {
+			display: none;
+		}
+
+		#reviewbutton {
+			display: inline-block;
+			width: 9em;
+			height: 2em;	
+			border-radius: 4px;
+			border: none;
+			background-color: #5f8f8d;
+			color: black;
+			font: inherit;
+			font-size: 1em;
+			font-weight: 100;
+			margin-top: -2em;
+			position: relative;
+			bottom: .7em;
+			right: 1em;
+			cursor:pointer;
+		}
+
+		.reviewbutton {
+			display: inline-block;
+		}
+
+		.footheader {
+			color: #57585b;
+			font-size: 1.2em;
+			font-weight: 500;
+			margin-bottom: 0em;
+
+		}
+
+		
+		 .footcontent {
+		 	display: block; 
+		 	font: inherit;
+		 	font-size: 1.2em;
+		 	margin-top: 0em;
+		 	padding: .3em 0;
+
+		 }
+
+		 .logsign {
+			display: none;
+		}
+
+		#change {
+			display: none;
+		}
+
+		.footer_container {
+			height: 22em;
+			position: relative;
+			left: -.5em;
+			bottom: 0;
+
+		}
+
+		.musicos img {
+			display:none;
+		}
+
+		#button {
+			border-radius: 4px;
+		}
+
+		#logbutton {
+		display: inline;
+
+		width: 16em;
+		height: 2em;	
+		border-radius: 4px;
+		border: none;
+		background-color: #5f8f8d;
+		color: white;
+		font: inherit;
+		font-size: 1em;
+		font-weight: 100;
+		margin-top: -2em;
+			
+		}
+
+		#changebutton {
+			display: inline;
+
+			width: 16em;
+			height: 2em;	
+			border-radius: 4px;
+			border: none;
+			background-color: #5f8f8d;
+			color: white;
+			font: inherit;
+			font-size: 1em;
+			font-weight: 100;
+			margin-top: -2em;
+		}
+
+		#about {
+			position: relative;
+			top: 9em;
+			font-size: 1em;
+		}
+body {
+	
+	width: 60%;
+
+	margin: 50px auto;
+	
+
+}
+
+.top {
+	text-align: center;
+}
+
+
+
+h3 {
+	padding-bottom: 20px;
+}
+
+h3:last-child {
+	padding-bottom: 50px;
+}
+
+h1:first-child {
+
+}
+
+
+
+.main{
+	margin-left:180px;
+
+}
+
+input[type="submit"] {
+	width: 50px;
+	height: 30px;
+	vertical-align: middle;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color:#993333;
+	color: lightyellow;
+	
+
+	
+}
+
+select {
+	width: 150px;
+	height: 30px;
+	background-color: lightyellow;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.middle {
+	font-weight:bold;
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+
+#about {
+	text-align: center;
+}
+
+/*percentage widths make it fluid, px ane em make it fixed */
+
+
+html {
+	height:100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	
+	width: 100%;
+
+	margin: none;
+
+	
+	color: #000066;
+	/*background-image: url('images/HTexture.gif');*/
+	background-color: #e7e2d2;
+		
+
+	
+
+}
+
+.container {
+
+	height: 100%;
+	
+}
+
+.main {
+	/*background-image: url('images/HTexture.gif');*/
+	
+	height: 90%;
+	/*height: 550px;*/
+
+	padding: none;
+	
+	margin: 0;
+	color: #57585b;
+		
+	
+
+}
+
+.iPhone-logo {
+	display: none;
+	text-align: center;
+	width: 28em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+
+	width: 28em;
+	height: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+
+.search {
+	text-align: center;
+	width: 28em; /*33%*/
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -1em;
+	height: 30%;
+	position: relative;
+	bottom: -4em;
+
+}
+
+.description {
+	
+	width: 33em; /*35%/
+	/*height: 20%;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: .86em;
+	letter-spacing: .046875em; 
+	line-height: 2em;
+	margin-top: 0;
+	position: relative;
+	bottom: -6em;
+}
+
+
+
+.town select {
+   background: transparent;
+   width: 16.5em;
+   height: 34px;
+  
+   padding: 5px;
+   font-size: 1.33em;
+   line-height: 1;
+   border-color: white;
+   border-radius: 0;
+   border:0px;
+
+   -webkit-appearance: none;
+   position: relative;
+   cursor:pointer;
+   }
+
+   .town {
+   width: 15.6em;
+   height: 32px;
+   overflow: hidden;
+   background: url("images/arrow_03.gif") no-repeat right #fff;
+   border: 1px solid #ccc;
+   margin-top: -.7em;
+	
+	position: relative;
+	bottom: 0em;
+	left: 6em;
+	box-shadow: none;
+	border: 0px;
+	border-color: white;
+
+
+   }
+
+
+#datepick {
+
+	background: transparent;
+   width: 18.75em;
+   height: 25px;
+   box-shadow: none;
+   cursor: default;
+  
+   padding: 5px;
+   font-size: 1.33em;
+   line-height: 1;
+   border-color: white;
+   border-radius: 0;
+   border:0px;
+
+   -webkit-appearance: none;
+   position: relative;
+
+ 
+
+}
+
+.date {
+	
+
+   width: 250px;
+   height: 32px;
+   overflow: hidden;
+   background: url("images/arrow_03.gif") no-repeat right #fff;
+   border: 1px solid #ccc;
+   margin-top: -.7em;
+	
+	position: relative;
+	bottom: -1.2em;
+	left: 6em;
+	box-shadow: none;
+	border: 0px;
+	border-color: white;
+
+}
+
+
+
+#who {
+	margin-bottom: 1em;
+	margin-left: -1.65em;
+	font-size: 1.3em;
+}
+
+
+
+
+
+/*#arrow1 {
+	position: relative;
+	top: -.6em;
+	left: 6.8em;
+	z-index: 0;
+}
+
+
+
+
+#arrow2 {
+	position: relative;
+	top: -2.88em;
+	left: 6.8em;
+	z-index: 1;
+}*/
+
+ #button{
+	width: 12.5em;
+	height: 1.6em;	
+	border-radius: 0;
+	border: none;
+	background-color:black;
+	color: white;	
+	font:	 inherit;
+	font-size: 125%;
+	font-weight: 100;
+	position: relative;
+	bottom: -1.5em;
+	right: .1em;
+	cursor: pointer;
+	
+}
+
+
+a {
+	text-decoration: none;
+	color: #5f8f8d;
+}	
+
+a:hover {
+	color: #336666;
+}	
+
+
+.review {
+	padding-top: .5em;	
+	width: 18em; /*25%*/
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	position: relative;
+	left: .9375em;
+	bottom: -6em;
+	margin-top: -.5em;
+	margin-bottom: -1em;
+
+}
+
+#showtext {
+	display: none;
+}
+
+img.bubble {
+	float: left;
+	margin-top: -1em;
+}
+
+#leave {
+	font-size: 1.2em;
+	position: relative;
+	left: -0.96em;
+	cursor: pointer;
+	
+}
+
+.reviewbutton {
+	display:none;
+	cursor: pointer;
+}
+
+
+
+#nosignup {
+	margin-top: -1.7em;
+	margin-right: 2em;
+	position: relative;
+	left: -1.58em; /* context = 11.52px */
+	font-size: .76em;
+}
+
+.footer_container {
+	width: 100%;
+	background-color: #dfdbc7;
+	height: 11em;	
+	border: none;
+	padding-right: 0;
+	padding-left: 0;
+	padding top: .625em;
+	position: relative;
+	left: -.5em;
+	bottom: -6em;
+	margin-top: 0em;
+	font: inherit;
+	height: 12em;
+}
+
+.footer {
+	
+	padding-top: 1em; 
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: -1em;
+	font: inherit;
+    
+    
+
+
+}
+
+.musicos {
+	width: 13em; /*20%*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	position: relative;
+	left: 2em; /*-1.875em*/
+	top: -.625em;
+	padding-right: 1.25em;  
+	
+
+}
+
+
+
+.musicos img {
+	margin-top: -1em;
+	position: absolute;
+	left:-3em;
+	top:0;
+}
+
+
+
+#logbutton {
+	display: none;
+	cursor:pointer;
+
+}
+
+.place {
+
+	width: 13em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	position: relative;
+	left: 10.3125em;
+	top: -5.9em;
+	padding-left: 1.875em;
+	margin-top: .7em;
+
+}
+
+#changebutton {
+	display: none;
+	cursor:pointer;
+}
+
+.footheader {
+	color: #57585b;
+	font-	size: 1.1em;
+	font-weight: 600;
+	margin-bottom: 1.5em;
+
+}
+ .footcontent {
+ 	font: inherit;
+ 	font-size: .72em;
+ 	margin-top: -1em;
+ 	
+
+ }
+
+ ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000;
+}
+
+
+ 
+
+/* -------------media queries---------------------*/
+
+@media only screen and (min-width: 1450px)  {
+
+	.main {
+		height: 625px;
+	}
+
+/* try increasing the height of the footer container for the above media query*/
+
+
+
+
+/*--------------old code---------------------------*/
+/*#spinner {
+	font-size: 1.33em;
+	width: 11.7481203em;
+	 width: 268px;
+	    height: 34px;
+	
+	color: black;	
+	font-	family: 'Open-Sans 300', sans-serif;
+	font-weight: lighter;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: .75em;
+	position: relative;
+	
+	background-image: url('css/images/arrow_03.gif');
+}*/
+
+/*.musictitle {
+	position: relative;
+	left: -1em;
+}*/
+
+/*.musicos p {
+
+	position: relative;
+	left: 3.125em;  
+
+} */
+
+/*.town {
+	margin-top: -.7em;
+	padding-bottom: .75em;
+	padding-top: 0;
+	position: relative;
+	bottom: 0em;
+
+}*/
+
+html {
+	height:100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	
+	width: 100%;
+	margin: none;
+
+	
+	color: #000066;
+	/*background-image: url('images/HTexture.gif');*/
+	background-color: #e7e2d2;
+	
+
+	
+
+}
+
+.container {
+
+	
+	
+}
+
+.main {
+	/*background-image: url('images/HTexture.gif');*/
+	
+
+
+	padding: none;
+	
+	margin: 0;
+	color: #57585b;
+	
+
+}
+
+.logo {
+
+	width: 33%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+
+.search {
+	text-align: center;
+	width: 33%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -1em;
+}
+
+.description {
+	
+	width: 29%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: .86em;
+	letter-spacing: .75px; 
+	line-height: 2em;
+	margin-top: 50px;
+}
+
+input[type="submit"] {
+	font-size: 1.3em;
+	width: 250px;
+	height: 30px;	
+	border-radius: 0;
+	border: none;
+	background-color:black;
+	color: white;
+	font: inherit;
+	font-size: 125%;
+	font-weight: 100;
+	
+}
+
+#arrow1 {
+	position: relative;
+	top: 2.3em;
+	left: 6.8em;
+}
+
+#arrow2 {
+	position: relative;
+	top: 1.95em;
+	left: 6.8em;
+}
+
+select {
+	font-size: 1.33em;
+	width: 250px;
+	height: 28px;
+	background-color: white;
+	color: black;
+	font-family: 'Open-Sans 300', sans-serif;
+	font-weight: lighter;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: .75em;
+}
+
+#who {
+	margin-bottom: 1em;
+	margin-left: -1.65em;
+	font-size: 1.3em;
+}
+
+
+
+.town {
+	margin-top: -.7em;
+	padding-bottom: .75em;
+	padding-top: 0;
+
+}
+
+.date {
+	padding-bottom: .75em;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #5f8f8d;
+}
+
+a:hover {
+	color: #336666;
+}
+
+
+.review {
+	padding-top: .5em;	
+	width: 19%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	position: relative;
+	left: 15px;
+	margin-top: -.5em;
+	margin-bottom: 6em;
+
+}
+
+img.bubble {
+	float: left;
+	margin-top: -1em;
+}
+
+#leave {
+	font-size: 1.2em;
+	position: relative;
+	left: -20px;
+	
+}
+
+#nosignup {
+	margin-top: -1.7em;
+	margin-right: 2em;
+	position: relative;
+	left: -20px;
+}
+
+.footer_container {
+	width: 100%;
+	background-color: #dfdbc7;
+	height: 15em;
+	border: none;
+	padding-right: 0;
+	padding-left: 0;
+	padding top: 10px;
+	position: relative;
+	left: -.5em;
+	bottom: -4em;
+	margin-top: 20px;
+	font: inherit;
+}
+
+.footer {
+	
+	padding-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: 20px;
+	font: inherit;
+    
+    
+
+
+}
+
+.musicos {
+	width: 20%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	position: relative;
+	left: -30px;
+	top: -10px;
+	padding-right: 20px;   
+}
+
+.musicos img {
+	margin-top: -16px;
+	margin-right: -2px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.musicos p {
+	position: relative;
+	left: 50px;
+
+}
+
+.place {
+
+	width: 20%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	position: relative;
+	left: 165px;
+	top: -91px;
+	padding-left: 30px;
+
+}
+
+
+.footheader {
+	color: #57585b;
+	font-size: 1.1em;
+	font-weight: 600;
+
+}
+ .footcontent {
+ 	font: inherit;
+ 	font-size: .72em;
+ 	margin-top: -1em;
+
+ }
+
+
+ img.note {
+ 	float: left;
+ } 
