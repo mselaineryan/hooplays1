@@ -1,0 +1,444 @@
+
+/*percentage widths make it fluid, px ane em make it fixed */
+
+html {
+	height:100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	
+	width: 100%;
+
+	margin: none;
+
+	
+	color: #000066;
+	/*background-image: url('images/HTexture.gif');*/
+	background-color: #e7e2d2;
+		
+
+	
+
+}
+
+.container {
+
+	height: 100%;
+	
+}
+
+.main {
+	/*background-image: url('images/HTexture.gif');*/
+	
+	height: 90%;
+	/*height: 550px;*/
+
+	padding: none;
+	
+	margin: 0;
+	color: #57585b;
+		
+	
+
+}
+
+.iPhone-logo {
+	display: none;
+	text-align: center;
+	width: 28em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+
+	width: 28em;
+	height: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+
+.search {
+	text-align: center;
+	width: 28em; /*33%*/
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -1em;
+	height: 30%;
+	position: relative;
+	bottom: -4em;
+
+}
+
+.description {
+	
+	width: 33em; /*35%/
+	/*height: 20%;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: .86em;
+	letter-spacing: .046875em; 
+	line-height: 2em;
+	margin-top: 0;
+	position: relative;
+	bottom: -6em;
+}
+
+
+
+.town select {
+   background: transparent;
+   width: 16.5em;
+   height: 34px;
+  
+   padding: 5px;
+   font-size: 1.33em;
+   line-height: 1;
+   border-color: white;
+   border-radius: 0;
+   border:0px;
+
+   -webkit-appearance: none;
+   position: relative;
+   cursor:pointer;
+   }
+
+   .town {
+   width: 15.6em;
+   height: 32px;
+   overflow: hidden;
+   background: url("images/arrow_03.gif") no-repeat right #fff;
+   border: 1px solid #ccc;
+   margin-top: -.7em;
+	
+	position: relative;
+	bottom: 0em;
+	left: 6em;
+	box-shadow: none;
+	border: 0px;
+	border-color: white;
+
+
+   }
+
+
+#datepick {
+
+	background: transparent;
+   width: 18.75em;
+   height: 25px;
+   box-shadow: none;
+   cursor: default;
+  
+   padding: 5px;
+   font-size: 1.33em;
+   line-height: 1;
+   border-color: white;
+   border-radius: 0;
+   border:0px;
+
+   -webkit-appearance: none;
+   position: relative;
+
+ 
+
+}
+
+.date {
+	
+
+   width: 250px;
+   height: 32px;
+   overflow: hidden;
+   background: url("images/arrow_03.gif") no-repeat right #fff;
+   border: 1px solid #ccc;
+   margin-top: -.7em;
+	
+	position: relative;
+	bottom: -1.2em;
+	left: 6em;
+	box-shadow: none;
+	border: 0px;
+	border-color: white;
+
+}
+
+
+
+#who {
+	margin-bottom: 1em;
+	margin-left: -1.65em;
+	font-size: 1.3em;
+}
+
+
+
+
+
+/*#arrow1 {
+	position: relative;
+	top: -.6em;
+	left: 6.8em;
+	z-index: 0;
+}
+
+
+
+
+#arrow2 {
+	position: relative;
+	top: -2.88em;
+	left: 6.8em;
+	z-index: 1;
+}*/
+
+ #button{
+	width: 12.5em;
+	height: 1.6em;	
+	border-radius: 0;
+	border: none;
+	background-color:black;
+	color: white;	
+	font:	 inherit;
+	font-size: 125%;
+	font-weight: 100;
+	position: relative;
+	bottom: -1.5em;
+	right: .1em;
+	cursor: pointer;
+	
+}
+
+
+a {
+	text-decoration: none;
+	color: #5f8f8d;
+}	
+
+a:hover {
+	color: #336666;
+}	
+
+
+.review {
+	padding-top: .5em;	
+	width: 18em; /*25%*/
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	position: relative;
+	left: .9375em;
+	bottom: -6em;
+	margin-top: -.5em;
+	margin-bottom: -1em;
+
+}
+
+#showtext {
+	display: none;
+}
+
+img.bubble {
+	float: left;
+	margin-top: -1em;
+}
+
+#leave {
+	font-size: 1.2em;
+	position: relative;
+	left: -0.96em;
+	cursor: pointer;
+	
+}
+
+.reviewbutton {
+	display:none;
+	cursor: pointer;
+}
+
+
+
+#nosignup {
+	margin-top: -1.7em;
+	margin-right: 2em;
+	position: relative;
+	left: -1.58em; /* context = 11.52px */
+	font-size: .76em;
+}
+
+.footer_container {
+	width: 100%;
+	background-color: #dfdbc7;
+	height: 11em;	
+	border: none;
+	padding-right: 0;
+	padding-left: 0;
+	padding top: .625em;
+	position: relative;
+	left: -.5em;
+	bottom: -6em;
+	margin-top: 0em;
+	font: inherit;
+	height: 12em;
+}
+
+.footer {
+	
+	padding-top: 1em; 
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: -1em;
+	font: inherit;
+    
+    
+
+
+}
+
+.musicos {
+	width: 13em; /*20%*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	position: relative;
+	left: 2em; /*-1.875em*/
+	top: -.625em;
+	padding-right: 1.25em;  
+	
+
+}
+
+
+
+.musicos img {
+	margin-top: -1em;
+	position: absolute;
+	left:-3em;
+	top:0;
+}
+
+
+
+#logbutton {
+	display: none;
+	cursor:pointer;
+
+}
+
+.place {
+
+	width: 13em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	position: relative;
+	left: 10.3125em;
+	top: -5.9em;
+	padding-left: 1.875em;
+	margin-top: .7em;
+
+}
+
+#changebutton {
+	display: none;
+	cursor:pointer;
+}
+
+.footheader {
+	color: #57585b;
+	font-	size: 1.1em;
+	font-weight: 600;
+	margin-bottom: 1.5em;
+
+}
+ .footcontent {
+ 	font: inherit;
+ 	font-size: .72em;
+ 	margin-top: -1em;
+ 	
+
+ }
+
+ ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000;
+}
+
+
+ 
+
+/* -------------media queries---------------------*/
+
+@media only screen and (min-width: 1450px)  {
+
+	.main {
+		height: 625px;
+	}
+
+/* try increasing the height of the footer container for the above media query*/
+
+
+
+
+/*--------------old code---------------------------*/
+/*#spinner {
+	font-size: 1.33em;
+	width: 11.7481203em;
+	 width: 268px;
+	    height: 34px;
+	
+	color: black;	
+	font-	family: 'Open-Sans 300', sans-serif;
+	font-weight: lighter;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: .75em;
+	position: relative;
+	
+	background-image: url('css/images/arrow_03.gif');
+}*/
+
+/*.musictitle {
+	position: relative;
+	left: -1em;
+}*/
+
+/*.musicos p {
+
+	position: relative;
+	left: 3.125em;  
+
+} */
+
+/*.town {
+	margin-top: -.7em;
+	padding-bottom: .75em;
+	padding-top: 0;
+	position: relative;
+	bottom: 0em;
+
+}*/
