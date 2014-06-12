@@ -11,32 +11,27 @@ describe "StaticPages" do
 
     it "should have the title 'Home'" do 
     	visit '/static_pages/home'
-    	expect(page).to have_title("Hooplays | Home")
+    	expect(page).to have_title("Hooplays")
+    end
+
+    it "should not have a custom page title" do 
+    	visit '/static_pages/home'
+    	expect(page).not_to have_title('| Home')
     end
   end
 
   describe "About Page" do 
-  	it "should have the content 'About'" do 
-  		visit '/static_pages/about'
-  		expect(page).to have_content('About')
+  	it "should have the content 'About Us'" do 
+  		visit '/static_pages/about_us'
+  		expect(page).to have_content('About Us')
   	end
 
-  	it "should have the title 'About'" do 
-  		visit '/static_pages/about'
-  		expect(page).to have_title("Hooplays | About")
+  	it "should have the title 'About Us'" do 
+  		visit '/static_pages/about_us'
+  		expect(page).to have_title("Hooplays | About Us")
   	end
   end
 
-  describe "FAQ Page" do 
-  	it "should have the content 'FAQ'" do 
-  		visit '/static_pages/faq'
-  		expect(page).to have_content('FAQ')
-  	end
-
-  	it "should have the title 'FAQ'" do 
-  		visit '/static_pages/faq'
-  		expect(page).to have_title("Hooplays | FAQ")
-  	end
-  end
+  
 
 end
