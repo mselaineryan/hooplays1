@@ -1,10 +1,125 @@
-<!DOCTYPE html>
-<h1>Hooplays</h1> 
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<title>Hooplays</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+
+	<meta name="viewport" content="width=viewport-width, initial-scale =1.0, user-scalable= no">
 
 
-<p> This is the hooplays home page.<br><br>
-Dev Questions/Answers:<br><br>
+	<link href="js/jquery-ui/css/first-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<style type="text/css">
+    .ui-datepicker { font-size: 9pt !important; }
+	</style>
+	
 
-The CSS stylesheet style.css is being deferred to right now because of the link to stylesheet in the application.html.erb layout. If I removed either the style.css file or the link to the stylesheet in application.html.erb, I loose the background color.
-</p>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="main">
+		<div class="iPhone-logo">
+			<%= image_tag("rsz_owl_04.gif", :alt => "owl")%>
+			<%= image_tag("rsz_logo-text-only_08.gif", :alt => "hooplays logo") %>
+		</div>
+		<div class="logo">
+			<%= image_tag("HLogo.gif", :alt => "Hooplays Logo with Owl on top") %>
+		</div>
+
+
+		<div class="search">
+			<p id="who">
+				Who's playing music in:<p>
+
+				<div class="town">
+					<select id="spinner">
+						
+			
+							<option selected>Kihei</option>
+							<option>Lahaina/Kaanapali</option>
+							<option>Paia/Haiku</option>
+							<option>Wailuku</option>
+							<option>All of Maui</option>
+					
+					</select>
+				</div>
+				
+				<div class="date">
+					<input type="text" name="datepick" id="datepick" placeholder="Tonight"/>
+				</div>
+				
+				<div >
+
+					<a href="tonight.html"><input type="submit" id="button" value="Get me off the couch!"></a>
+
+				</div>
+		</div>	 
+			
+		<div >
+			<p class="description"> In the mood for live music? Hooplays helps you find a show tonight. Gig listings with weblinks, genres and reviews guide you toward the kind of music you know you'll love.</p>
+		</div>	
+
+		<div class="review">
+			
+
+			<p><a href="leave_review.html"><%= image_tag("HBubble.png", :class => "bubble", :alt => "Saw a show Bubble") %></a>
+			<p id="showtext">Saw a Show?</p>
+			<p class="reviewbutton"><a href="leave_review.html"><input type="submit" id="reviewbutton" value="LEAVE A REVIEW"></a></p>	
+			<a href="leave_review.html"><p id="leave">LEAVE A REVIEW</p></a>
+				
+				<p id="nosignup"class="footcontent"> Tweet-sized & Easy</p></p>
+
+		</div>	
+
+	</div>
+
+	<div class="footer_container">
+		<div class="footer">
+
+				<div class="musicos">
+					<%= image_tag("HMusicNote.gif", :class => "note", :alt => "music note") %>
+					<p class="footheader musictitle">Musicians</p>
+					<p class="logbutton"><a href="login.html"><input type="submit" id="logbutton" value="Log in to update shows"></a></p>
+					<p class="footcontent logsign"><a href="login.html">log in to update shows</a></p>
+					<p class="footcontent logsign"><a href="sign_up.html">sign up for free</a></p>
+				</div>
+				<div class="place">			
+
+					<p class="footheader"> Maui, Hawaii</p>
+					<p class="changebutton"><a href="#"><input type="submit" id="changebutton" value="Change Location"></a></p>
+					<p class="footcontent" id="change"><a href="#">change location</a></p> 
+					<p class="footcontent" id="about"><a href="sign_up.html">about us</a></p>
+				</div>	
+			
+		</div>
+
+	</div>	
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/jquery-ui/js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+<script type="text/javascript">
+
+$("#datepick").datepicker();
+
+$("#datepick").datepicker({
+   showOn: 'button',
+   buttonImage: 'images/iconCalendar.gif',
+   buttonImageOnly: true,
+   changeMonth: true,
+   changeYear: true,
+   showAnim: 'slideDown',
+   duration: 'fast',
+   
+});
+
+</script>
+</body>
 	
