@@ -1,27 +1,4 @@
-<!doctype html>
 
-<html lang="en">
-
-<head>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	
-	
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
-
-	<meta name="viewport" content="width=viewport-width, initial-scale =1.0, user-scalable= no">
-
-
-	<link href="js/jquery-ui/css/first-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
-	<style type="text/css">
-    .ui-datepicker { font-size: 9pt !important; }
-	</style>
-	
-
-
-</head>
-
-<body>
 <div class="container">
 	<div class="main">
 		<div class="iPhone-logo">
@@ -87,14 +64,14 @@
 					<p class="footheader musictitle">Musicians</p>
 					<p class="logbutton"><a href="login.html"><input type="submit" id="logbutton" value="Log in to update shows"></a></p>
 					<p class="footcontent logsign"><a href="login.html">log in to update shows</a></p>
-					<p class="footcontent logsign"><a href="sign_up.html">sign up for free</a></p>
+					<p class="footcontent logsign"><%= link_to "Sign up for free", signup_path %></p>
 				</div>
 				<div class="place">			
 
 					<p class="footheader"> Maui, Hawaii</p>
 					<p class="changebutton"><a href="#"><input type="submit" id="changebutton" value="Change Location"></a></p>
 					<p class="footcontent" id="change"><a href="#">change location</a></p> 
-					<p class="footcontent" id="about"><a href="sign_up.html">about us</a></p>
+					<p class="footcontent" id="about"><%= link_to "About us", about_us_path %></p>
 				</div>	
 			
 		</div>
@@ -120,5 +97,5 @@ $("#datepick").datepicker({
 });
 
 </script>
-</body>
+
 	
