@@ -1,9 +1,11 @@
 Hooplays1::Application.routes.draw do
-  get 'users/new'
+  resources :users
 
   match '/signup', to: "users#new", via: 'get'
 
   match '/about_us', to: 'static_pages#about_us', via: 'get'
+
+  match '/home', to: 'static_pages#home', via: 'get'
 
   root :to => "static_pages#home"
  
