@@ -1,12 +1,13 @@
 Hooplays1::Application.routes.draw do
   resources :users
+  resources :sessions, only: [:new, :create, :destroy]
 
   match '/signup', to: "users#new", via: 'get'
-
+  match '/login', to: "sessions#new", via: 'get'
+  match '/logout', to: "sessions#destroy", via: 'delete'
   match '/about_us', to: 'static_pages#about_us', via: 'get'
-
   match '/home', to: 'static_pages#home', via: 'get'
-
+  
   root :to => "static_pages#home"
  
 

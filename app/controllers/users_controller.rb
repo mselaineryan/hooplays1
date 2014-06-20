@@ -13,10 +13,9 @@ class UsersController < ApplicationController
   def create
   	@user = User.new(user_params) #not the final implementation!
   	if @user.save
+      log_in @user
   		flash[:success] = "Thanks for joining Hooplays!"
   		redirect_to @user
-  		
-  		
   	else
 		render 'new', :layout => 'bootstraplayout.html.erb'
 	end
