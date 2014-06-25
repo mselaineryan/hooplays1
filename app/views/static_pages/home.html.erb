@@ -63,14 +63,14 @@
 					<%= image_tag("HMusicNote.gif", :class => "note", :alt => "music note") %>
 					<p class="footheader musictitle">Musicians</p>
 					<p class="logbutton"><a href="login.html"><input type="submit" id="logbutton" value="Log in to update shows"></a></p>
-					<p class="footcontent logsign"><a href="login.html">log in to update shows</a></p>
+					<p class="footcontent logsign"><%= link_to "Log in to update shows", login_path %></p>
 					<p class="footcontent logsign"><%= link_to "Sign up for free", signup_path %></p>
 				</div>
 				<div class="place">			
 
 					<p class="footheader"> Maui, Hawaii</p>
 					<p class="changebutton"><a href="#"><input type="submit" id="changebutton" value="Change Location"></a></p>
-					<p class="footcontent" id="change"><a href="#">change location</a></p> 
+					<p class="footcontent" id="change"><a href="#">Change location</a></p> 
 					<p class="footcontent" id="about"><%= link_to "About us", about_us_path %></p>
 				</div>	
 			
